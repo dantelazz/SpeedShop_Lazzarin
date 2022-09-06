@@ -29,11 +29,11 @@ const ItemCount = ({stock, initial, onAdd}) => {
         <div className="container-fluid">
             <div className="row justify-content-center">
                 <div className="col-md-2">
-                    <p className="text-start"></p>
+                    <p className="text-center">El Stock maximo es 5</p>
                     <div className="input-group">
                         <input className="btn btn-secondary" type="button" value="-" onClick={() =>
                         {quitarItems(itemInitial - 1)}} />
-                        <input className="form-control" type="text" value={itemInitial} onChange={()=>{}} />
+                        <input className="form-control " type="text" value={itemInitial} onChange={()=>{}} />
                         <input className="btn btn-secondary" type="button" value="+" onClick={() =>
                         {agregarItems(itemInitial + 1)}} />
                         

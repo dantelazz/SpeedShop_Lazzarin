@@ -7,7 +7,7 @@ function App() {
     <div>
       <NavBar/>
 
-      <ItemCount stock={15} initial={1} onAdd={0}/>
+      <ItemCount stock={5} initial={1} onAdd={0}/>
     </div>
       
 
