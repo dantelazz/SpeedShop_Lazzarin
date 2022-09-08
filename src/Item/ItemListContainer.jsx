@@ -4,7 +4,7 @@ import { useState } from "react";
 import ItemCount from "./ItemCount";
 import ItemList from "./ItemList";
 
-
+// Info de los items a cargar
 const items = [
   {
     id: 1,
@@ -47,6 +47,7 @@ const items = [
 const ItemListContainer = (props) => {
   const [productos, setProductos] = useState([]);
 
+  // El delay de la carga
   useEffect(() => {
     const obtenerProductos = new Promise((resolve) => {
       setTimeout(() => {
