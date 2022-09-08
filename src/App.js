@@ -1,6 +1,5 @@
 
 import NavBar from './NavBar/NavBar';
-
 import ItemListContainer from './Item/ItemListContainer';
 
 function App() {
