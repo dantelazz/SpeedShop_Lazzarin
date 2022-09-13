@@ -1,13 +1,14 @@
 
 import NavBar from './NavBar/NavBar';
-import ItemListContainer from './Item/ItemListContainer';
+
+import ItemDetailContainer from "./Item/ItemDetailContainer";
 
 function App() {
   return (
     <div>
       <NavBar/>
 
-      <ItemListContainer/>
+      <ItemDetailContainer />
 
     </div>
       
